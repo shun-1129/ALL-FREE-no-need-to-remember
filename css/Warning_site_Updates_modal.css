@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.content{
+	margin: 0 auto;
+	padding: 40px;
+}
+.modal{
+	display: none;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.modal__bg{
+	background: rgba(0,0,0,0.8);
+	height: 100vh;
+	position: absolute;
+	width: 100%;
+}
+.modal__content{
+	background: #fff;
+	left: 50%;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 80%;
+}
+	modal_div{
+		width: 90%;
+	}
+		table{
+			widows: 80%;
+			margin: 0 auto;
+		}
+			td{
+				font-size: 2.0rem;
+				text-align: center;
+			}
+			input[type=text]{
+				width: 250px;
+				height: 40px;
+				text-align: center;
+				font-size: 1.6rem;
+			}
+			input[type=password]{
+				width: 250px;
+				height: 40px;
+				text-align: center;
+				font-size: 1.6rem;
+			}
+			.Change{
+				width: 200px;
+				height: 30px;
+			}

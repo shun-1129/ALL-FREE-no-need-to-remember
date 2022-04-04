@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#main_div{
+	width: 80%;
+	margin: 0 auto;
+	background-color: #fff;
+	
+	padding: 20px 0;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	-webkit-transform: translateY(-50%) translateX(-50%);
+}
+	button{
+		width: 150px;
+		height: 40px;
+	}

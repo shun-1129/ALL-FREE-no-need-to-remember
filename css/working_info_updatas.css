@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 479px){
+	#main_div{
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+	}
+		#Title_div{
+			width: 80%;
+			margin: 20px auto;
+			padding: 0;
+			text-align: center;
+		}
+			.working{
+				font-size: 3.0rem;
+			}
+			.working_mess{
+				font-size: 1.9rem;
+			}
+		#list_div{
+			width: 90%;
+			margin: 20px auto;
+			padding: 0;
+			text-align: center;
+		}
+			.data_name{
+				font-size: 3.0rem;
+			}
+}

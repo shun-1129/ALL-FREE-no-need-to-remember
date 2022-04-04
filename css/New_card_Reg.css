@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 479px){
+	body{
+		padding: 0;
+		width: 100%;
+	}
+	#main_div{
+		margin: 0 auto;
+		padding: 0;
+		width: 100%;
+	}
+		#tbl_div{
+			margin: 0 auto;
+			padding: 0;
+			width: 80%;
+		}
+			table{
+				margin: 0 auto;
+			}
+				td{
+					text-align: center;
+					font-size: 1.8rem;
+				}
+					input[type=text]{
+						width: 200px;
+						height: 40px;
+						text-align: center;
+						font-size: 1.5rem;
+					}
+					input[type=password]{
+						width: 200px;
+						height: 40px;
+						text-align: center;
+						font-size: 1.5rem;
+					}
+					select{
+						width: 80px;
+						height: 40px;
+						text-align: center;
+						font-size: 1.5rem;
+					}
+}

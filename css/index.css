@@ -5,5 +5,8 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: #FFF;
+  margin: 0;
+  padding: 0;
+  display: block;
 }
 /*# sourceMappingURL=index.css.map */
